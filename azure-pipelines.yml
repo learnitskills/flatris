@@ -25,7 +25,7 @@ steps:
     SourceFolder: '$(Build.SourcesDirectory)'
     Contents: '**\bin\$(BuildConfiguration)\**'
     TargetFolder: '$(Build.ArtifactStagingDirectory)'
-  displayName: "Copy Files"
+  displayName: "Copy All Files"
 
 - task: PublishBuildArtifacts@1
   inputs:
